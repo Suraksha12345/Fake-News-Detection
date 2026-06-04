@@ -20,6 +20,14 @@ We have used a labelled dataset containing news articles along with their corres
 - True: Genuine news articles
 - False: Fake or fabricated news articles
 
+*Dataset Link(you can copy and paste the link )*
+
+import kagglehub
+
+path = kagglehub.dataset_download("secondbenchbuddies/true-and-fake-dataset")
+
+print("Path to dataset files:", path)
+
 
 ## Dependencies
 
@@ -52,3 +60,10 @@ We evaluated each classifier's performance using metrics such as accuracy, preci
 Once you are satisfied with the performance of a particular classifier, you can deploy it in a real-world application or integrate it into a larger system for automatic fake news detection.
 ---
 
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("secondbenchbuddies/true-and-fake-dataset")
+
+print("Path to dataset files:", path)
